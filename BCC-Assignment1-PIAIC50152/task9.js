@@ -1,0 +1,10 @@
+var firstNo = +prompt("Please enter the first number");
+var secondNo = +prompt("Please enter the second number");
+var result = (firstNo - secondNo);
+var result1 = (firstNo*secondNo);
+var result2 = (firstNo/secondNo);
+var result3 = (firstNo%secondNo);
+document.write("Difference" + " " + "of" + "" + firstNo + " " + "and" + " " + secondNo + " " + "is" + " " + result + "<br>");
+document.write("Product" + " " + "of" + "" + firstNo + " " + "and" + " " + secondNo + " " + "is" + " " + result1 + "<br>");
+document.write("Division" + " " + "of" + "" + firstNo + " " + "and" + " " + secondNo + " " + "is" + " " + result2 + "<br>");
+document.write("Modulus" + " " + "of" + "" + firstNo + " " + "and" + " " + secondNo + " " + "is" + " " + result3 + "<br>");
